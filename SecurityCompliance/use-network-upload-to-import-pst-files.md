@@ -112,7 +112,7 @@ The first step is to download and install the Azure AzCopy tool, which is the to
 
 Now you're ready to use the AzCopy.exe tool to upload PST files to Office 365. This tool uploads and stores them in an Azure storage location in the Microsoft cloud. As previously explained, the Azure storage location that you upload your PST files to resides in the same regional Microsoft datacenter where your Office 365 organization is located. To complete this step, the PST files have to be located in a file share or file server in your organization. This is known as the source directory in the following procedure. Each time you run the AzCopy tool, you can specify a different source directory. 
   
-1. Open a Command Prompt on your local computer.
+1. Open a Command Prompt on your local computer or open the AzCopy.exe file installed.
     
 2. Go to the directory where you installed the AzCopy.exe tool in Step 1. If you installed the tool in the default location, go to `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy`.
     
